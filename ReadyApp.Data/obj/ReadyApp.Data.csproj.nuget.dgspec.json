@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tooen\\source\\repos\\Production\\com.tooensure.readyapp\\ReadyApp.Data\\ReadyApp.Data.csproj": {}
+    "c:\\Users\\tooen\\source\\repos\\Production\\com.tooensure.readyapp\\ReadyApp.Data\\ReadyApp.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tooen\\source\\repos\\Production\\com.tooensure.readyapp\\ReadyApp.Data\\ReadyApp.Data.csproj": {
+    "c:\\Users\\tooen\\source\\repos\\Production\\com.tooensure.readyapp\\ReadyApp.Data\\ReadyApp.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tooen\\source\\repos\\Production\\com.tooensure.readyapp\\ReadyApp.Data\\ReadyApp.Data.csproj",
+        "projectUniqueName": "c:\\Users\\tooen\\source\\repos\\Production\\com.tooensure.readyapp\\ReadyApp.Data\\ReadyApp.Data.csproj",
         "projectName": "ReadyApp.Data",
-        "projectPath": "C:\\Users\\tooen\\source\\repos\\Production\\com.tooensure.readyapp\\ReadyApp.Data\\ReadyApp.Data.csproj",
+        "projectPath": "c:\\Users\\tooen\\source\\repos\\Production\\com.tooensure.readyapp\\ReadyApp.Data\\ReadyApp.Data.csproj",
         "packagesPath": "C:\\Users\\tooen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tooen\\source\\repos\\Production\\com.tooensure.readyapp\\ReadyApp.Data\\obj\\",
+        "outputPath": "c:\\Users\\tooen\\source\\repos\\Production\\com.tooensure.readyapp\\ReadyApp.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tooen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -21,7 +21,6 @@
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,6 +38,24 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
