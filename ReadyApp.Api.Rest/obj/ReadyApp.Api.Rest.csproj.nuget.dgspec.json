@@ -27,7 +27,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\tooen\\source\\repos\\Production\\com.tooensure.readyapp\\ReadyApp.Data\\ReadyApp.Data.csproj": {
+                "projectPath": "C:\\Users\\tooen\\source\\repos\\Production\\com.tooensure.readyapp\\ReadyApp.Data\\ReadyApp.Data.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -59,6 +63,60 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tooen\\source\\repos\\Production\\com.tooensure.readyapp\\ReadyApp.Data\\ReadyApp.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tooen\\source\\repos\\Production\\com.tooensure.readyapp\\ReadyApp.Data\\ReadyApp.Data.csproj",
+        "projectName": "ReadyApp.Data",
+        "projectPath": "C:\\Users\\tooen\\source\\repos\\Production\\com.tooensure.readyapp\\ReadyApp.Data\\ReadyApp.Data.csproj",
+        "packagesPath": "C:\\Users\\tooen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tooen\\source\\repos\\Production\\com.tooensure.readyapp\\ReadyApp.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tooen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
